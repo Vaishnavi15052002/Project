@@ -89,3 +89,55 @@ through proactive maintenance and real-time monitoring.
 
 ### Block Diagram:
 ![Block_dia_project](https://github.com/user-attachments/assets/af08f776-c2bf-4dee-aadc-d361a323b2e3)
+
+### Flow Chart:
+![Flow_chart_project](https://github.com/user-attachments/assets/82f1f9bf-30f6-421c-be01-334a4f367396)
+
+### Circuit Diagram:
+![WhatsApp Image 2025-01-21 at 3 01 34 PM](https://github.com/user-attachments/assets/9496da98-bd64-4e5a-8152-6ce37ada8cc7)
+
+### Methodology
+The methodology for the Bus Tracking and Monitoring System involves several key stages,
+including system design, sensor integration, data processing, and real-time visualization. The
+system is built around an Arduino microcontroller, which acts as the central hub for
+collecting and processing data from various sensors. The initial design phase focuses on
+selecting and configuring the appropriate sensors, including those for measuring emissions,
+engine temperature, vehicle stability, tire pressure, and vibration, as well as a GPS module for
+real-time location tracking. Each sensor is integrated with the Arduino through appropriate
+interfacing circuits, ensuring accurate and reliable data acquisition.
+In the sensor integration phase, each sensor is calibrated and tested to ensure its accuracy and
+compatibility with the Arduino system. The emission sensor measures the level of pollutants
+emitted by the bus, while the temperature sensor monitors the engine's operating temperature.
+The accelerometer detects changes in vehicle stability, and the pressure sensor checks tire
+pressure. Additionally, the vibration sensor is used to detect sudden impacts or accidents.
+Data from these sensors are continuously collected and processed by the Arduino, which then
+Vibration
+Sensor
+GPS Module
+ESP8266
+WiFi
+Cloud
+Mobile
+Phone/PC
+performs initial analysis and data fusion to provide a cohesive set of parameters reflecting the
+bus's operational status.
+The processed data is then transmitted to an ESP8266 module, which handles the
+communication with the Blynk IoT platform. The ESP8266 is responsible for sending realtime data to the cloud-based platform, where it is visualized and monitored through a userfriendly interface. This step involves configuring the ESP8266 for reliable Wi-Fi
+communication and ensuring that data packets are transmitted accurately and promptly. The
+Blynk platform provides a dashboard where users can view real-time data from all sensors,
+track the bus's location via GPS, and receive alerts or notifications in case of critical events
+such as high emissions, engine overheating, or accidents.
+Finally, the system is subjected to rigorous testing to validate its functionality and reliability.
+This testing phase includes evaluating the accuracy of sensor readings, the responsiveness of
+the alert system, and the overall performance of data transmission and visualization. Any
+issues identified during testing are addressed through system adjustments and optimizations.
+The completed system is then deployed in a real-world setting, where it provides
+comprehensive monitoring and management capabilities for bus fleets, enhancing operational
+efficiency, safety, and environmental compliance.
+
+
+
+
+
+
+
